@@ -1,0 +1,99 @@
+div {
+  margin: 10px 0;
+}
+
+.icon {
+  background-image: url(../img/fon.jpg);
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 900px;
+}
+img {
+  width: 500px;
+  height: 500px;
+}
+.menu ul {
+  list-style-type: none;
+  width: 200px;
+}
+.menu ul {
+  padding: 0px;
+  margin: 0px;
+}
+.menu li {
+  margin-bottom: 5px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font: 13px Arial;
+  border: 1px solid black;
+  display: block;
+  padding: 0px 5px;
+  line-height: 30px;
+  background-color: #484848;
+  font-weight: bold;
+}
+.menu a:hover {
+  text-decoration: none;
+  color: black;
+  font: 13px Arial;
+  border: 1px solid black;
+  display: block;
+  padding: 0px 5px;
+  line-height: 30px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.menu_line ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.menu_line a {
+  text-decoration: none;
+  color: blue;
+  font: 13px Arial;
+  border: 1px solid #1a31a2;
+  padding: 5px;
+}
+.menu_line li {
+  margin: 5px;
+  display: inline-block;
+}
+.menu_line a:hover,
+.menu_line a:active {
+  color: #fff;
+  background-color: #484848;
+  border: 1px solid black;
+}
+.menu_third {
+  width: 100%;
+  background: orange;
+  padding: 10px;
+}
+.menu_third ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.menu_third li {
+  margin: 0px;
+  border: none;
+  display: inline-block;
+}
+.menu_third a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+  margin: 0px;
+}
+.menu_third a:hover {
+  color: #fff;
+  background-color: red;
+  border: none;
+}
