@@ -1,0 +1,52 @@
+.firstLine {
+  text-decoration: overline;
+}
+.secondLine {
+  text-decoration: line-through;
+}
+.thirdLine {
+  text-decoration: overline;
+}
+#test a:link,
+#test a:visited {
+  color: #ff0000;
+  text-decoration: none;
+}
+#test a:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.www a:link .www a :visited {
+  color: #0ff;
+}
+#test .www a:link #test .www a :visited {
+  color: #0ff;
+}
+
+div h2 {
+  text-decoration: line-through;
+}
+h2.bbb {
+  color: #7ffdd7;
+}
+
+.bbb,
+.xxx {
+  text-align: center;
+}
+#test p.bbb,
+#test p.xxx {
+  width: 6px;
+}
+.fff {
+  border: #0ff;
+}
+.fff p {
+  text-decoration: none;
+}
+p.fff {
+  text-decoration: underline;
+}
+.fff .bbb {
+  color: #ff0000;
+}
