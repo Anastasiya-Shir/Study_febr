@@ -1,0 +1,9 @@
+h1,
+p {
+  width: 500px;
+  color: white;
+}
+body {
+  background: #000000 url(./img/space.jpg) no-repeat left top;
+  background-size: 60%;
+}
