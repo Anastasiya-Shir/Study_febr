@@ -1,0 +1,13 @@
+.firstPart {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ff0000;
+  margin: 50px;
+}
+.secondPart {
+  width: 300px;
+
+  border: 1px solid #008000;
+  text-align: justify;
+  padding: 20px;
+}

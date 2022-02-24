@@ -1,0 +1,12 @@
+#first {
+  float: left;
+  margin: 20px;
+}
+#second {
+  float: right;
+  margin: 20px;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
