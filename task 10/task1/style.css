@@ -1,0 +1,35 @@
+div {
+  width: 60%;
+  min-width: 500px;
+  max-width: 900px;
+  margin: 10px auto;
+  padding: 30px;
+  text-align: justify;
+  border: 1px solid red;
+  border-radius: 40px;
+}
+h1,
+h2 {
+  color: #ae3000;
+}
+.red {
+  color: red;
+}
+p {
+  font-size: 17px;
+}
+.green {
+  color: green;
+}
+p.author {
+  text-align: right;
+  padding-right: 70px;
+  font: italic 12px Arial;
+}
+a {
+  color: #00f;
+}
+a:hover {
+  text-decoration: none;
+  color: #008000;
+}
