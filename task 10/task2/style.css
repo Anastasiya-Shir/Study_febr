@@ -1,0 +1,21 @@
+.card {
+  margin-bottom: 20px;
+  border: 1px solid #707070;
+  padding: 20px;
+  width: 700px;
+  height: 300px;
+  margin: 6px auto;
+}
+img {
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin: 0 10px;
+}
+.link {
+  text-align: right;
+  color: red;
+}
+a {
+  color: #0000ff;
+}
