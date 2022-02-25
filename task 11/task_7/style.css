@@ -1,0 +1,15 @@
+.square_1 {
+  margin: 0 auto;
+  border: 1px solid #008000;
+  width: 360px;
+  height: 360px;
+  position: relative;
+}
+.square_2 {
+  border: 1px solid #f00;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 60px;
+  top: 60px;
+}

@@ -1,0 +1,37 @@
+.trafficLights {
+  position: relative;
+  width: 200px;
+  height: 430px;
+  margin: 0px auto;
+  border: 1px solid black;
+}
+.redCircle {
+  border: 1px solid black;
+  background-color: red;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.orangeCircle {
+  border: 1px solid black;
+  background-color: #fa5;
+  position: absolute;
+  left: 50px;
+  top: 180px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.greenCircle {
+  border: 1px solid black;
+  background-color: #008000;
+  position: absolute;
+  left: 50px;
+  top: 300px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}

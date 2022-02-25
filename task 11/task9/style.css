@@ -1,0 +1,21 @@
+.header {
+  color: #fff;
+  background: #adffad;
+  padding: 1px;
+  position: fixed;
+  width: 100%;
+
+  top: 0;
+}
+h2 {
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+.card {
+  width: 600px;
+  margin: 90px auto;
+  padding: 20px;
+  border: 1px solid #c4cd14;
+}

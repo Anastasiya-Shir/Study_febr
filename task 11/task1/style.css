@@ -1,0 +1,22 @@
+.square_1 {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #f00;
+}
+.square_2 {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #0000ff;
+  position: relative;
+  left: 25px;
+}
+.square_3 {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #008000;
+  position: relative;
+  left: 50px;
+}
+div {
+  margin: 0 1px;
+}
