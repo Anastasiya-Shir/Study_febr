@@ -1,0 +1,20 @@
+#elem + li {
+  color: #ff0000; /* choise  element next to id elem*/
+}
+main * p {
+  color: #ff0000;
+}
+
+#second :first-child {
+  color: #ff0000;
+}
+#second :last-child {
+  color: #ffff00;
+}
+
+#third :nth-child(odd) {
+  color: #ff0000;
+}
+#third :nth-child(even) {
+  color: #008800;
+}
