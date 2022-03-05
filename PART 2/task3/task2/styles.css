@@ -1,0 +1,36 @@
+.content_circle {
+  width: 100px;
+  height: 100px;
+  background-color: #ff0;
+  border-radius: 50%;
+  position: relative;
+  left: 0;
+  animation-name: white-circle; /*имя анимации*/
+  animation-duration: 2s; /*время длительности анимации*/
+  animation-timing-function: linear; /*сценарий анимации*/
+  animation-iteration-count: 10; /*количество повторений*/
+  animation-duration: alternate; /*направление анимации*/
+  animation-delay: 2s; /*задержка анимаци*/
+  animation-fill-mode: forwards; /*состояние после анимации*/
+
+  /*animation краткая запись*/
+}
+.content {
+  height: 800px;
+  background: #0088;
+}
+.content:hover .content_circle {
+  animation-play-state: paused; /* остановка анимации при условии*/
+}
+@keyframes white-circle {
+  /*начальное и конечное значене. анимации rk.ключевые кадры*/
+  0% {
+    left: 0;
+  }
+  50% {
+    border-radius: 0;
+  }
+  100% {
+    left: 500px;
+  }
+}
