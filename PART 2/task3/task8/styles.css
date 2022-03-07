@@ -1,0 +1,13 @@
+input {
+  width: 30%;
+  height: 30px;
+  padding: 0px 5px;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+}
+input:focus {
+  width: 50%;
+  box-shadow: 0px 0px 2px #0000ff;
+  color: #0000ff;
+}

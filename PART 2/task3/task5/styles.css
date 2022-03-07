@@ -1,0 +1,13 @@
+#d1 {
+  background: #fff;
+  border: 1px solid #f00;
+  width: 30%;
+  height: 100px;
+  color: #f00;
+  padding: 0;
+  transition-property: width;
+  transition-duration: 1s;
+}
+#d1:hover {
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+.show {
+  border: 1px solid #ff0000;
+  padding: 10px;
+}
+
+.hint {
+  background: #ff5b5b;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  margin: 20px 0px 0px -400px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.show:hover + div {
+  margin: 20px 200px;
+}
