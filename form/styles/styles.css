@@ -1,0 +1,20 @@
+body {
+  background-image: url(../images/backGround.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0, auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  align-items: center;
+}
+input {
+  width: 350px;
+}
+.buttonNetwork {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
