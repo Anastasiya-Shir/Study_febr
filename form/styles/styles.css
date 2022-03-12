@@ -1,8 +1,27 @@
+@font-face {
+  font-family: "LatoItalic";
+
+  src: url("../fonts/Lato/Lato-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 body {
   background-image: url(../images/backGround.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  margin: 0, auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-family: "LatoItalic";
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: lighter;
 }
 form {
   display: flex;
@@ -10,9 +29,46 @@ form {
   width: 380px;
   align-items: center;
 }
-input {
-  width: 350px;
+
+.inputData {
+  background-color: rgba(255, 255, 255, 0.08);
+
+  border: none;
+  border-radius: 40px;
+  margin: 5px;
+  height: 30px;
+  width: 250px;
+  padding: 0 20px;
 }
+.inputData::placeholder {
+  color: #ffffff;
+  font-family: LatoItalic;
+}
+button {
+  background: #fbceb5;
+  border: none;
+  font-size: 16px;
+  color: #000;
+  border-radius: 40px;
+  margin: 5px;
+  height: 30px;
+  width: 290px;
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+label {
+  color: #fbceb5;
+}
+
 .buttonNetwork {
   display: flex;
   flex-direction: row;
