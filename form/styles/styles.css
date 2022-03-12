@@ -6,23 +6,34 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "LatoItalicBold";
+
+  src: url("../fonts/Lato/Lato-BoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 body {
   background-image: url(../images/backGround.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 h3 {
   font-family: "LatoItalic";
   color: #ffffff;
   font-size: 28px;
   font-weight: lighter;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -40,11 +51,19 @@ form {
   width: 250px;
   padding: 0 20px;
 }
+
+.inputData:hover,
+.inputData:focus {
+  border: 1px solid #fff;
+  outline: 0;
+}
+
 .inputData::placeholder {
   color: #ffffff;
   font-family: LatoItalic;
 }
-button {
+
+.buttonSingn {
   background: #fbceb5;
   border: none;
   font-size: 16px;
@@ -59,18 +78,43 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 290px;
 }
 a {
+  font-family: "LatoItalicBold";
   text-decoration: none;
   color: #ffffff;
+  font-size: 16px;
 }
 
 label {
   color: #fbceb5;
 }
 
+p {
+  margin: 20px;
+
+  font: 16px, "LatoItalicBold";
+  color: #fff;
+}
+
 .buttonNetwork {
+  width: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.buttonNetwork button {
+  background: #fff;
+  width: 146px;
+  border: none;
+  height: 30px;
+  font: 16px, "LatoItalic";
+  transition-duration: 0.5s;
+}
+
+.buttonNetwork button:hover {
+  background: #000;
+  color: #fff;
 }
